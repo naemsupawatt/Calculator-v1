@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600&display=swap');
+
+:root {
+    --body-color-main: #070B11;
+    --content-color: #fff;
+    --font-color-main: #fff;
+    --font-color-secondary: #D6811D;
+    --font-drop-shadow: #BC16BF;
+    --box-number-color: #161D28;
+    --font-box-number: 2.75rem;
+}
+
+body {
+    margin: 0;
+    background-color: var(--body-color-main);
+    font-family: 'Poppins';
+}
+
+p {
+    margin: 0;
+}
+
+.container-1 {
+    background-color: var(--body-color-main);
+    color: var(--font-color-main);
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 2rem 2rem 2rem 2rem;
+    text-align: center;
+}
+
+.container-1>p {
+    filter: drop-shadow(0.25rem 0px 0px var(--font-drop-shadow));
+}
+
+.container-2 {
+    width: auto;
+    height: auto;
+}
+.content-2{
+    padding-top: 40px;
+    background-color: var(--content-color);
+    margin-left: auto;
+    margin-right: auto;
+    width: 388px;
+    border: 1px solid var(--content-color);
+    border-radius: 30px;
+}
+.content-3 {
+    background-color: var(--content-color);
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.box-number-row1 {
+    width: 90px;
+    height: 100px;
+    background-color: var(--box-number-color);
+    font-size: var(--font-box-number);
+    color: var(--font-color-main);
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+    
+}
+.sum-primary{
+    font-size: 4rem;
+    text-align: end;
+    padding-right: 15px;
+
+}
+.sum-secondary{
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: end;
+    padding-right: 15px;
+}
+.box-number-row1:nth-child(1),
+.box-number-row1:nth-child(2) {
+    color: var(--font-color-secondary); 
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.box-number-row1:nth-child(4),
+.box-number-row1:nth-child(8),
+.box-number-row1:nth-child(12),
+.box-number-row1:nth-child(16),
+.box-number-row1:nth-child(20) {
+    background-color: var(--font-color-secondary);
+}
+
+.box-number-row1:nth-child(17) {
+    border-radius: 0px 0px 0px 30px;
+}
+.box-number-row1:nth-child(20) {
+    border-radius: 0px 0px 30px 0px;
+}
+sup{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.sq{
+    font-size: 2.25rem;
+    color: var(--font-color-secondary);
+    font-weight: 400;
+}
+button{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
