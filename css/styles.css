@@ -124,3 +124,15 @@ button:active {
     transform: scale(1.01);
     box-shadow: 0 2px 4px 1px var(--font-color-secondary), 0 1.5px 1.5px rgba(0, 0, 0, 0.23);
 }
+input{
+    background-color: var(--content-color);
+    width: 95%;
+    height: 80px;
+    font-size: 4rem;
+    text-align: end;
+    padding: 0px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    color: var(--body-color-main);
+}
